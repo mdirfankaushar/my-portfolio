@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <!-- font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- main css  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="#" class="logo">My Portfolio</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, Myself</h3>
+        <h1>Md Irfan Kaushar</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          I am web/software developer as a fresher. To obtain a challenging
+          career in the industry and put all my efforts into the growth of the
+          organization and have a great working environment.
+        </p>
+
+        <!-- icons from Font Awesome -->
+        <div class="social-media">
+          <a href="https://github.com/mdirfankaushar"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/mdirfankaushar"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://www.instagram.com/irfan_1505_"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://wa.me/+919990281826" target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </div>
+        <a href="Docs/md_irfan_cv.pdf" class="btn" download="Md_Shahbaz_CV"
+          >Download CV</a
+        >
+      </div>
+
+      <div class="home-img">
+        <img src="images/profile-pic.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/about-pic3.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>
+          Hello, I'm Md Irfan Kaushar. I'm a Frontend/Web Developer and Software
+          Developer with a Bachelor's degree in Computer Science and Engineering
+          from Punjab Technical University. I specialize in building intuitive,
+          user-focused websites and applications that blend seamless
+          functionality with engaging design. As freelancer and recent graduate,
+          I bring a fresh perspective and strong technical foundation in HTML,
+          CSS, JavaScript, React.js and UI/UX principles. Based in New Delhi,
+          I'm eager to start my professional journey, applying my skills and
+          creativity to real-world projects. Let's connect and create something
+          exceptional together!
+        </p>
+        <a href="#about" class="btn">Read more</a>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="fa-solid fa-code"></i>
+          <h3>Web Development</h3>
+          <p>
+            Crafting responsive, high-performance websites with clean, modern
+            design and seamless user experiences. I specialize in building
+            websites that are not only visually appealing but also optimized for
+            usability, accessibility, and performance across all devices. Let’s
+            bring your vision to life with a site that engages and converts!
+          </p>
+          <a href="#services" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-brands fa-android"></i>
+          <h3>App Development</h3>
+          <p>
+            I offer custom app development services focused on creating
+            user-friendly, high-performance applications. With an emphasis on
+            intuitive design and seamless functionality, I build apps that not
+            only meet business needs but also provide an exceptional user
+            experience. From concept to deployment, I ensure each app is
+            tailored to engage users and drive results.
+          </p>
+          <a href="#services" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-regular fa-user"></i>
+          <h3>UI/UX Development</h3>
+          <p>
+            I offer professional UI/UX design and development services to create
+            clean, responsive, and user-friendly websites, apps, and dashboards.
+            From wireframes to front-end development using Figma, Adobe XD,
+            HTML, CSS, and JavaScript, I deliver intuitive, modern designs
+            tailored to your brand. Let’s bring your ideas to life with seamless
+            functionality and engaging user experiences.
+          </p>
+          <a href="#services" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <!--projects images would be 4:3  -->
+          <img src="images/hospital.png" />
+          <div class="portfolio-layer">
+            <h4>Healthcare management</h4>
+            <p>Healthcare patient management website.</p>
+            <a href="https://carepulse-two-iota.vercel.app/" target="_blank"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/todo.png" />
+          <div class="portfolio-layer">
+            <h4>Todo List</h4>
+            <p>
+              Todo App user interface that have Add, Delete, Mark and clear all
+              functions.
+            </p>
+            <a
+              href="https://mdirfankaushar.github.io/todo-list/"
+              target="_blank"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/password-generator.png" />
+          <div class="portfolio-layer">
+            <h4>Password Generator</h4>
+            <p>You can generate random multiple passwords</p>
+            <a
+              href="https://mdirfankaushar.github.io/password-generator"
+              target="_blank"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/4.jpg" />
+          <div class="portfolio-layer">
+            <h4>Calculator</h4>
+            <p>Simple calculator using JavaScript</p>
+            <a href="https://calculator-v2-psi.vercel.app/" target="_blank"
+              ><i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <!-- temporary warning message -->
+      <p class="warning">
+        <i class="fa-solid fa-triangle-exclamation"></i> Unfortunately form is
+        not working right now please contact throgh Number or Whatsapp :
+        <span><i>+91 9990281826</i></span>
+      </p>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          Copyright &copy; 2024 by @md_irfan_kaushar | All Rights Reserved |
+        </p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+
+    <!-- scrollreveal js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- main.js -->
+    <script src="main.js"></script>
+  </body>
+</html>
